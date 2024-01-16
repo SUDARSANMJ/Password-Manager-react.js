@@ -53,8 +53,8 @@ body {
   width: 350px;
   height: auto;
   background-color: #454f84;
-  color: #f8fafc;
   border-radius: 5px;
+  color: #f8fafc;
 }
 
 .detail-heading {
@@ -64,7 +64,7 @@ body {
 
 .input-holder {
   display: flex;
-  flex-direction: flex-start;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   background-color: #f8fafc;
@@ -92,6 +92,7 @@ body {
   font-size: 10px;
   padding: 5px;
 }
+
 .add-btn {
   background-color: #0b69ff;
   color: white;
@@ -104,11 +105,10 @@ body {
   align-self: flex-end;
 }
 
-.sub-divi-image1 {
+.sub-div1-image1 {
   width: 25%;
   height: 100%;
 }
-
 .sub-div1-image2 {
   display: none;
 }
@@ -146,7 +146,6 @@ body {
   font-size: 16px;
   margin-right: 5px;
 }
-
 .colored-text {
   border-style: solid;
   border-color: #9ba9eb;
@@ -176,6 +175,7 @@ hr {
   height: 1px;
   width: 100%;
 }
+
 .show-passwords {
   display: flex;
   flex-direction: row;
@@ -210,7 +210,7 @@ hr {
   height: 170px;
 }
 
-.no-password {
+.no-passwords {
   color: #f8fafc;
   font-size: 14px;
 }
@@ -298,6 +298,7 @@ hr {
 .orange {
   background-color: #f97316;
 }
+
 .brown {
   background-color: #b91c1c;
 }
@@ -312,18 +313,15 @@ hr {
     justify-content: center;
     height: auto;
   }
-
   .sub-div1-image1 {
     display: none;
   }
-
   .sub-div1-image2 {
     display: block;
     width: 300px;
     height: 200px;
     margin-bottom: 18px;
   }
-
   .sub-div2 {
     min-height: 50vh;
   }
